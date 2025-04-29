@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Secreto</title>
+  <link rel="stylesheet" href="/assets/chat.css">
+</head>
+<body>
+  <h1>🕵️‍♂️ Chat Secreto</h1>
+
+  <div id="chat-container">
+    <ul id="messages"></ul>
+    <form id="form" autocomplete="off">
+      <input id="message" placeholder="Mensaje secreto..." autocomplete="off" />
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/assets/chat.js"></script>
+</body>
+</html>
